@@ -12,7 +12,7 @@ jobs:
         os: [macos-14, macos-15, macos-latest]
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Run Test
         run: |
           set -x # Enable Execution Logs
