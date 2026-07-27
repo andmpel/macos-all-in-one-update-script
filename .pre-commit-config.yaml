@@ -1,7 +1,7 @@
 repos:
   # Syncs pre-commit dependencies with the latest versions.
   - repo: https://github.com/mxr/sync-pre-commit-deps
-    rev: "v0.0.4"
+    rev: "v0.0.5"
     hooks:
       - id: sync-pre-commit-deps
   # Pre-commit hooks for general file checks
@@ -70,6 +70,6 @@ repos:
         entry: cmd --githook pre-commit
   # Markdownlint for linting Markdown files
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.23.1
+    rev: v0.23.2
     hooks:
       - id: markdownlint-cli2
